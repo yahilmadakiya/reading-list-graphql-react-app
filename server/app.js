@@ -5,10 +5,13 @@ const mongoose = require("mongoose");
 
 const app = express();
 
+// Connect with DataBase
 mongoose.connect(
 	"mongodb://yahil:yahil#525225@ds227332.mlab.com:27332/yahil_gql",
 	{ useNewUrlParser: true }
 );
+
+// DataBase Connection
 mongoose.connection.once("open", () => {
 	console.log("Connected to DB");
 });
