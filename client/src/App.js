@@ -4,6 +4,7 @@ import { ApolloProvider } from "react-apollo";
 
 // Components
 import BookList from "./component/BookList";
+import AddBook from "./component/AddBook";
 
 // apollo client setup
 const client = new ApolloClient({
@@ -16,6 +17,7 @@ function App() {
 			<div className="main">
 				<h1>Ninja's Reading List</h1>
 				<BookList />
+				<AddBook />
 			</div>
 		</ApolloProvider>
 	);
