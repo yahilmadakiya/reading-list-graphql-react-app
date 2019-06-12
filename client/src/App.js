@@ -5,6 +5,7 @@ import { ApolloProvider } from "react-apollo";
 // Components
 import BookList from "./component/BookList";
 import AddBook from "./component/AddBook";
+import BookDetails from "./component/BookDetails";
 
 // apollo client setup
 const client = new ApolloClient({
