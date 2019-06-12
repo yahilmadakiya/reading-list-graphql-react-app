@@ -4,7 +4,7 @@ import {
 	getAuthorsQuery,
 	addBookMutation,
 	getBooksQuery
-} from "./queries/queries";
+} from "../queries/queries";
 
 class AddBook extends Component {
 	constructor(props) {
