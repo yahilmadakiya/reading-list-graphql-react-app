@@ -8,6 +8,10 @@
 
 ![](reading-list-graphQL-react-app-demo.gif)
 
+## GraphiQL Playground DEMO :video_camera:
+
+![](GraphQL-demo.gif)
+
 ## Installation :wrench:
 
 -   Clone this repo by running `git clone git@github.com:yahilmadakiya/reading-list-graphql-react-app.git`
@@ -45,4 +49,4 @@
 
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
-- **[MIT license](http://opensource.org/licenses/mit-license.php)**
+-   **[MIT license](http://opensource.org/licenses/mit-license.php)**
