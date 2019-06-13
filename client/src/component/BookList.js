@@ -37,7 +37,7 @@ class BookList extends Component {
 		return (
 			<div className="books-listing">
 				<div>
-					<h1>Book's Reading List</h1>
+					<h1>Ninja's Reading List</h1>
 					<ul className="book-list">{this.displayBooks()}</ul>
 				</div>
 				<BookDetails bookId={this.state.selected} />

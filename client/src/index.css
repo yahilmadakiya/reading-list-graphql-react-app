@@ -14,6 +14,7 @@ body {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	height: 100vh;
+	padding-left: 10px;
 }
 
 .book-list {
@@ -31,6 +32,10 @@ body {
 	box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
 	cursor: pointer;
 	color: #880e4f;
+}
+
+.book-list li:hover {
+	box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
 }
 
 .other-books {
