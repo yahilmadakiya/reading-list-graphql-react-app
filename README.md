@@ -29,3 +29,20 @@
 -   Client will be available at `localhost:3000`
 
 **NOTE:** Start from your rood directory
+
+## Built With :zap:
+
+1. Node
+2. Express
+3. GraphQL
+4. mongodb
+5. React
+6. Appollo Client
+7. Webpack
+8. Babel
+
+## License
+
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+
+- **[MIT license](http://opensource.org/licenses/mit-license.php)**
