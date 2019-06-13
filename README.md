@@ -23,7 +23,7 @@
 -   `nodemon app`
 -   GraphQL will be availabel at `localhost:4000/graphql`
 
-**NOTE:** Start from your rood directory
+**NOTE:** Start from your root directory
 
 ### Client setup
 
@@ -32,7 +32,7 @@
 -   `npm start`
 -   Client will be available at `localhost:3000`
 
-**NOTE:** Start from your rood directory
+**NOTE:** Start from your root directory
 
 ## Built With :zap:
 
