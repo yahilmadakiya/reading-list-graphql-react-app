@@ -35,8 +35,11 @@ class BookList extends Component {
 
 	render() {
 		return (
-			<div>
-				<ul id="bool-list">{this.displayBooks()}</ul>
+			<div className="books-listing">
+				<div>
+					<h1>Book's Reading List</h1>
+					<ul className="book-list">{this.displayBooks()}</ul>
+				</div>
 				<BookDetails bookId={this.state.selected} />
 			</div>
 		);
