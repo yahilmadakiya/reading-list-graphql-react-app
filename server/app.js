@@ -10,8 +10,11 @@ const app = express();
 app.use(cors());
 
 // Connect with DataBase
-// Make sure to replace STANDARD_MONGODB_URI with your db string
-mongoose.connect("STANDARD_MONGODB_URI", { useNewUrlParser: true });
+// Make sure to replace my db string & creds with your own
+mongoose.connect(
+	"mongodb://yahil:yahil#525225@ds227332.mlab.com:27332/yahil_gql",
+	{ useNewUrlParser: true }
+);
 mongoose.connection.once("open", () => {
 	console.log("Connected to DB");
 });
