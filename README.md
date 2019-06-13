@@ -17,7 +17,7 @@
 -   `cd server`
 -   `npm install`
 -   `nodemon app`
--   GraphQL will be availabel at http://localhost:4000/graphql
+-   GraphQL will be availabel at `localhost:4000/graphql`
 
 **NOTE:** Start from your rood directory
 
@@ -26,6 +26,6 @@
 -   `cd client`
 -   `npm install`
 -   `npm start`
--   Client will be available at http://localhost:3000
+-   Client will be available at `localhost:3000`
 
 **NOTE:** Start from your rood directory
